@@ -37,7 +37,7 @@ class PyEcmwflibs(PythonPackage):
     # FIXME: Add the SPDX identifier of the project's license below.
     # See https://spdx.org/licenses/ for a list. Upon manually verifying
     # the license, set checked_by to your Github username.
-    license("UNKNOWN", checked_by="github_user1")
+    #license("UNKNOWN", checked_by="github_user1")
 
     version("0.5.3", sha256="ff33494a01bce52c414af1d32723be4d60c17ef7c6e6181b7d8025358f69af87", expand=False)
 
