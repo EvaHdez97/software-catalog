@@ -14,7 +14,7 @@ class PyNetcdf4(PythonPackage):
 
     maintainers("skosukhin")
 
-    license("MIT")
+    #license("MIT")
 
     version("1.6.2", sha256="0382b02ff6a288419f6ffec85dec40f451f41b8755547154c575ddd9f0f4ae53")
     version("1.5.8", sha256="ca3d468f4812c0999df86e3f428851fb0c17ac34ce0827115c246b0b690e4e84")
