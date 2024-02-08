@@ -38,7 +38,7 @@ class PyDtcv2Util(PythonPackage):
     # FIXME: Add the SPDX identifier of the project's license below.
     # See https://spdx.org/licenses/ for a list. Upon manually verifying
     # the license, set checked_by to your Github username.
-    license("UNKNOWN", checked_by="github_user1")
+    # license("UNKNOWN", checked_by="github_user1")
 
     version("0.0.60", sha256="c8a27488103d62f48ad739c576a223ab5c23f3972a0ce2037fb99bf756aa6fcc", expand=False)
 
