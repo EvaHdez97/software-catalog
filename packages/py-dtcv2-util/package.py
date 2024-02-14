@@ -45,9 +45,9 @@ class PyDtcv2Util(PythonPackage):
     # FIXME: Only add the python/pip/wheel dependencies if you need specific versions
     # or need to change the dependency type. Generic python/pip/wheel dependencies are
     # added implicity by the PythonPackage base class.
-    # depends_on("python@2.X:2.Y,3.Z:", type=("build", "run"))
-    # depends_on("py-pip@X.Y:", type="build")
-    # depends_on("py-wheel@X.Y:", type="build")
+    depends_on("python@3.8", type=("build", "run"))
+    depends_on("py-pip", type="build")
+    depends_on("py-wheel", type="build")
 
     # FIXME: Add a build backend, usually defined in pyproject.toml. If no such file
     # exists, use setuptools.
@@ -57,7 +57,9 @@ class PyDtcv2Util(PythonPackage):
     # depends_on("py-poetry-core", type="build")
 
     # FIXME: Add additional dependencies if required.
-    # depends_on("py-foo", type=("build", "run"))
+    #depends_on("py-netcdf4", type= "run")
+    #depends_on("py-xarray", type="run")
+    
 
     def config_settings(self, spec, prefix):
         # FIXME: Add configuration settings to be passed to the build backend
