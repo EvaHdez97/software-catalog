@@ -9,15 +9,16 @@ Software descriptions have to be included inside this repository according to th
 ```
 software-catalog
   |- packages
-  |    |- software_1
+  |    |- software_1  Spack package name    
   |    |    |- package.py		Installation description following the Spack package format
-  |    |    |- invocation.json          Description of the software invocation
   |    |       ...
   |    |- software_2    
   |          ....
-  |- cfg				Spack configuration used by the Image Creation Service	
+  |- cfg				Spack configuration used by the Image Creation Service
+  |    |-packages.yaml  Basic packages to generate the image
+  |    |-repos.yaml     Name of the folder containing the files used by the image creation software to install the software packages (software-catalog)
   |    
-  |- repo.yaml				Spack description of for this repository  
+  |- repo.yaml				Namespace description of this repository  (software-catalog-test)
 
 ```  
 
